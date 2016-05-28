@@ -15,7 +15,7 @@ def getMode:
  def shift():
      shift = 0
      while True:
-     print('Enter the shift number (1-%s)' % (26))
+     print('Enter the shift number (1-26)')
      shift = int(input())
      if (shift >= 1 and shift <= 26):
          return shift
